@@ -1,6 +1,6 @@
 {
     "name": "string",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Provides new and existing string methods with case insensitivity without modifying the String object prototype.",
     "main": "./WakandaProject/Modules/string.js",
     "keywords": [

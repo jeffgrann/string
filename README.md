@@ -1,6 +1,6 @@
 
-string v1.0
-===========
+string v1.0.1
+=============
 
 string is a unified Javascript RequireJS/CommonJS module for the browser and/or Wakanda Server 
 (SSJS) which provides string methods not available in plain-vanilla javascript. It also offers
@@ -151,7 +151,7 @@ Constants
 Examples:
 
 ```javascript
-string.make('Hello').isEqualTo('hello', CASE.SENSITIVE); // false
+string.make('Hello').isEqualTo('hello', string.CASE.SENSITIVE); // false
 ```
 
 
@@ -250,8 +250,8 @@ Examples:
 string.make('Hello').compareTo('hello'); // 0
 string.make('Hello').compareTo('also'); // 1
 string.make('Hello').compareTo('zebra'); // -1
-string.make('Hello').compareTo('hello', CASE.SENSITIVE); // 1
-string.make('Hello').compareTo('Hello', CASE.SENSITIVE); // 0
+string.make('Hello').compareTo('hello', string.CASE.SENSITIVE); // 1
+string.make('Hello').compareTo('Hello', string.CASE.SENSITIVE); // 0
 ```
 <a id="CONTAINS"></a>
 ### contains (value, caseOption)
